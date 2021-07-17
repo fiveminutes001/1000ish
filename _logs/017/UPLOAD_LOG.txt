@@ -1,0 +1,13 @@
+
+UPLOAD DATA
+
+---------------
+
+2018-11-10-142325-1541852615.9831-אביתר
+
+
+
+IMG NAMES
+
+---------------
+{"image_upload_01":{"name":"B904D5E7-2838-4BB6-8782-97EA6575B8FB.jpeg","type":"image\/jpeg","tmp_name":"\/tmp\/phppNWiUM","error":0,"size":1743387},"image_upload_02":{"name":"246EE406-ECE1-4FF5-AD89-54C55C03A2C9.jpeg","type":"image\/jpeg","tmp_name":"\/tmp\/phpxWi3xe","error":0,"size":1845700},"image_upload_03":{"name":"787F2223-3E03-4077-9CCF-53076C7E36FF.jpeg","type":"image\/jpeg","tmp_name":"\/tmp\/php3NTUPS","error":0,"size":2391289}}

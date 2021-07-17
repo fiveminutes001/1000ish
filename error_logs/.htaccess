@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "logs"
+AuthUserFile "/home/elad189g/.htpasswds/public_html/s/1000ish.com/error_logs/passwd"
+require valid-user

@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- FAVICON -->
+	<link rel="icon" type="image/png" href="favicon.ico">
+	
+	<!-- APPLE TOUCH ICON --><!-- OUTPUT 02 -->
+	<link rel="apple-touch-icon" sizes="57x57" href="favicon.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="favicon.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="favicon.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="favicon.png" />
+	
+	<!-- ENCODING -->
+	<meta charset="utf-8">
+	
+	<!-- VIEWPORT -->
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	
+	<!-- GOOGLE FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
+	
+	<!-- JQUERY -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	 	
+	<!-- EMOJI CSS -->
+	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+	
+	<!-- STYLE -->
+	<style>
+	*
+	{
+		font-family: 'Bellefair', serif;
+	}
+	
+	body {
+		max-width:720px;
+		padding:12px;
+		margin:auto;
+	}
+		
+	div.gallery {
+		margin: 5px auto;
+		border: 1px solid #ccc;
+		/*float: left;*/
+		width: 75%;
+		overflow:hidden;
+	}
+	
+	div.gallery:hover {
+		border: 1px solid #777;
+	}
+	
+	div.gallery img {
+		width: 100%;
+		height: auto;
+	}
+	
+	div.desc {
+		padding: 15px 0px;
+		text-align: center;
+	}
+	
+	.container
+	{
+		width:100%;
+		text-align:center;
+		float:left;
+	}
+	
+	.header
+	{
+		/*width:100%;*//* CHANGED */
+		width:50%;
+		text-align:center;
+	}
+	
+	*
+	{
+		font-family: 'Bellefair', serif;
+	}
+	
+	/* LIST *//* https://designshack.net/articles/css/5-simple-and-practical-css-list-styles-you-can-copy-and-paste/ */
+	
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	body {
+	/*background: #333;*/
+	}
+	
+	div {
+	/*width: 900px;*/
+	width: 100%;
+	margin: 0 auto;
+	overflow: auto;
+	}
+	
+	ul {
+	list-style-type: none;
+	}
+	
+	li img {
+	float: left;
+	margin: 10px;
+	border: 5px solid #fff;
+	
+	-webkit-transition: box-shadow 0.5s ease;
+	-moz-transition: box-shadow 0.5s ease;
+	-o-transition: box-shadow 0.5s ease;
+	-ms-transition: box-shadow 0.5s ease;
+	transition: box-shadow 0.5s ease;
+	}
+	
+	li img:hover {
+	-webkit-box-shadow: 0px 0px 7px rgba(255,255,255,0.9);
+	box-shadow: 0px 0px 7px rgba(255,255,255,0.9);
+	}
+	
+	/* GENERAL */
+	.thumbnail_pic
+	{
+		/*width:150px;*//*CHANGED*/
+		/*width:25%;*/
+		width:99%;
+		padding:0px;
+		border:0.5px black solid;
+		margin:0px;
+	}
+	
+	.subjects_div
+	{
+		width:75%;
+		text-align:right;
+	}
+	
+	.to_complete
+	{
+		background-color:yellow;
+	}
+	
+	.to_fix
+	{
+		background-color:lightblue;
+	}
+	
+	.initial_width
+	{
+		width:initial;
+	}
+	/* @media */
+	@media only screen and (max-width: 500px)
+	{
+		.header
+		{
+			/*width:100%;*//* CHANGED */
+			width:100%;/*CHANGED FROM 50%*/
+			text-align:center;
+		}
+		
+		.subjects_div
+		{
+			width:75%;
+		}
+	}
+	
+	</style>
+</head>
+<body>
+	<div style="width:100%;text-align:center;">	
+		<fieldset>
+			
+			<legend>16.12.18</legend>
+			
+			<div style="width:100%;text-align:center;">
+				<h1>שאלה 01</h1>
+			</div>
+		
+		<!-- IMAGE -->
+		<div class="header">
+			<!-- THUMBNAIL PICS -->
+			<div style="width:100%;">	
+				<h4 style="margin-bottom:0px;display:inline;">תשובות</h4>
+			</div>
+			
+			<div style="width:50%;margin:auto;">
+				<hr>
+			</div>
+			
+			<div style="width:100%;">	
+				<h4 style="margin-bottom:0px;display:inline;">לפי שלבים</h4>
+			</div>
+			
+			<div style="width:100%;">
+				<div style="width:33.33%;float:left;">
+					<ul style="width:100%;">
+						<li><a target="blank" href="img/02/01.jpg"><img class="thumbnail_pic" src="img/02/01.jpg" alt="Thumbnail"/></a></li>
+						<li><a target="blank" href="img/02/02.jpg"><img class="thumbnail_pic" src="img/02/02.jpg" alt="Thumbnail"/></a></li>
+						<li><a target="blank" href="img/02/03.jpg"><img class="thumbnail_pic" src="img/02/03.jpg" alt="Thumbnail"/></a></li>
+					</ul>
+				</div>
+				
+				<div style="width:33.33%;float:left;">
+					<ul style="width:100%;">
+						<li><a target="blank" href="img/02/04.jpg"><img class="thumbnail_pic" src="img/02/04.jpg" alt="Thumbnail"/></a></li>
+						<li><a target="blank" href="img/02/05.jpg"><img class="thumbnail_pic" src="img/02/05.jpg" alt="Thumbnail"/></a></li>
+						<li><a target="blank" href="img/02/06.jpg"><img class="thumbnail_pic" src="img/02/06.jpg" alt="Thumbnail"/></a></li>
+					</ul>
+				</div>
+				
+				<div style="width:33.33%;float:left;">
+					<ul style="width:100%;">
+						<li><a target="blank" href="img/02/07.jpg"><img class="thumbnail_pic" src="img/02/07.jpg" alt="Thumbnail"/></a></li>
+						<li><a target="blank" href="img/02/08.jpg"><img class="thumbnail_pic" src="img/02/08.jpg" alt="Thumbnail"/></a></li>
+						<li><a target="blank" href="img/02/09.jpg"><img class="thumbnail_pic" src="img/02/09.jpg" alt="Thumbnail"/></a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<!-- SPACE -->
+			<div class="header">
+				<div style="width:100%;">	
+					<h1 style="margin-bottom:0px;display:inline;">&nbsp;</h1>
+				</div>
+			</div><!-- THUMBNAIL PICS -->
+		</div>
+		</fieldset>
+	</div>
+	
+<!--	
+	<div style="width:100%;text-align:center;">	
+		<fieldset>
+			
+			<legend>14.12.18</legend>
+			<h4 style="text-align:center;">TIC-TAC-TOO</h4>
+-->		
+			<!-- TABLE 
+			<div style="width:100%;text-align:center;">
+				<table style="width:100%;border:1px black solid;border-collapse:collapse;">
+				-->
+					<!-- LINE 01 
+					<tr style="height:20px;border:1px black solid;">
+						<td id="one" style="width:33%;border:1px black solid;text-align:center;"></td>
+						<td id="two" style="width:33%;border:1px black solid;text-align:center;"></td>
+						<td id="three" style="width:33%;border:1px black solid;text-align:center;"></td>
+					</tr>-->
+					
+					<!-- LINE 02 
+					<tr style="height:20px;border:1px black solid;">
+						<td id="four" style="width:33%;border:1px black solid;text-align:center;"></td>
+						<td id="five" style="width:33%;border:1px black solid;text-align:center;"></td>
+						<td id="six" style="width:33%;border:1px black solid;text-align:center;"></td>
+					</tr>-->
+					
+					<!-- LINE 03 
+					<tr style="height:20px;border:1px black solid;">
+						<td id="seven" style="width:33%;border:1px black solid;text-align:center;"></td>
+						<td id="eight" style="width:33%;border:1px black solid;text-align:center;"></td>
+						<td id="nine" style="width:33%;border:1px black solid;text-align:center;"></td>
+					</tr>
+				</table>
+			</div>
+		
+		</fieldset>
+	</div>-->
+<!--	
+	<div style="width:100%;text-align:center;">	
+		<fieldset>
+			
+			<legend>28.11.18</legend>
+			<h4 style="text-align:center;">JSON JS OBJECTS, PROTOTYPES</h4>
+		
+			<div style="width:100%;text-align:center;">
+				<button onclick="go_json()">JSON</button>
+			</div>
+		
+		</fieldset>
+	</div>
+	
+	<div style="width:100%;text-align:center;">	
+		<fieldset>
+			<legend>16.11.18</legend>
+			<h4 style="text-align:center;">הוספת שורה לרשימה</h4>
+		
+			<div style="width:100%;text-align:left;">
+				<ul id="_list" style="width:100%;margin:auto;text-align:left;">
+					<li>1</li>
+					<li>2</li>
+				</ul>
+			</div>
+			
+			<div style="width:100%;text-align:center;">
+				<button onclick="_add()">ADD</button>
+			</div>
+		</fieldset>
+	</div>
+	
+	<div style="width:100%;text-align:center;">	
+		<fieldset>
+			<legend>13.11.18</legend>
+			<h4 style="text-align:center;">חוזק סיסמה</h4>
+		
+			<div style="width:100%;text-align:center;">
+				<input id="pass_text" type="text" value="PASSWORD:" onkeyup="password_strength()">
+			</div>
+		</fieldset>
+	</div>
+	
+	<div style="width:100%;text-align:center;">	
+		<fieldset>
+			<legend id="div_header">09.11.18</legend>
+			<h4 style="text-align:center;">צבעים מתחלפים</h4>
+		
+			<div style="width:100%;text-align:center;">
+				<button onclick="start_colors()">START</button>
+				<button onclick="clear_colors_01()">STOP</button>
+			</div>
+		</fieldset>
+	</div>
+		
+	
+
+	
+	<div style="width:100%;text-align:center;margin-top:6px;">	
+		<fieldset>
+			<legend id="div_header">02.11.18</legend>
+			<h4 style="text-align:center;">SHOW INPUT VALUE</h4>
+			
+			<div id="form_01">
+				Enter name: <input id="input_01" type="text" name="fname">
+				<input type="submit" value="Submit" onclick="myFunction()">
+			</div>
+		</fieldset>
+	</div>
+-->
+	<script>
+		//TIC TAC TOO
+		function tic_tac()
+		{
+			var arr = 
+			{ 
+				"one":0,    
+				"two":0,    
+				"three":0,    
+				"four":0,    
+				"five":0,    
+				"six":0,    
+				"seven":0,    
+				"eight":0,    
+				"nine":0 
+			}
+			
+			$("td").on("click", function(){
+				
+				arr[this.id]++;
+				
+				if ((arr[this.id] % 2) == 0) 
+				{ 
+					// Even 
+					$(this).html("O");
+				} 
+				
+				if ((arr[this.id] % 2) == 1) 
+				{ 
+					// Odd 
+					$(this).html("X");
+				}
+			});
+		}
+		
+		//tic_tac();
+		
+		//JSON JS OBJECTS, PROTOTYPES
+		function go_json()
+		{
+			function SeriesClass(name_01,price_01,img_01,quantity_01)
+			{
+				this.name = name_01;
+				this.price = price_01;
+				this.img = img_01;
+				this.quantity = quantity_01;
+			}
+								
+			SeriesClass.prototype.addToHtml = function()
+			{
+				console.log("name:",this.name);
+				console.log("price:",this.price);
+				console.log("quantity:",this.quantity);
+				console.log("image:",this.img);
+			}
+			
+			//var shopping_list = new SeriesClass(json[i]["name"],json[i]["price"],json[i]["img"],json[i]["quantity"]);
+			var shopping_list = new SeriesClass("name_exapmle","price_example","img_example","quantity_example");
+			
+			shopping_list.addToHtml();
+		}//go_json
+		
+		//FUNCTION ADD TO LIST
+		function _add()
+		{
+			var node = document.createElement("LI");
+			var textnode = document.createTextNode("New Line");
+			node.appendChild(textnode);
+			document.getElementById("_list").appendChild(node);
+		}
+				
+		//FUNCTION PASSWORD STRENGTH
+		function password_strength()
+		{
+			var m = pass_text.value;
+			console.log(m);
+		}//FUNCTION PASSWORD STRENGTH
+		
+		//FUNCTION CHANGING COLORS
+		function changeLights(m)
+		{
+			if(m == 1)
+			{
+				console.log("red");
+				document.getElementById("div_header").style.backgroundColor = "red";
+			}
+			
+			if(m == 2)
+			{
+				console.log("blue"); 
+				document.getElementById("div_header").style.backgroundColor = "blue";
+			}
+			
+			if(m == 3)
+			{
+				console.log("green");
+				document.getElementById("div_header").style.backgroundColor = "green";
+				
+			}
+			
+			if(m == 4)
+			{
+				console.log("yellow"); 
+				document.getElementById("div_header").style.backgroundColor = "yellow";
+			}
+			
+			if(m == 5)
+			{
+				console.log("orange");
+				document.getElementById("div_header").style.backgroundColor = "orange";				
+			}
+		}
+		
+		//INPUT DISPLAY FUNCTION
+		function myFunction()
+		{
+			var a =  document.getElementById("input_01").value;	
+			alert(a);
+		}
+		
+		
+		//CHANGING COLORS EVERY SECOND
+		function colors_01()	
+		{
+			b =	setTimeout(function(){changeLights(1); }, 1000); 
+			c =	setTimeout(function(){changeLights(2); }, 2000);
+			d =	setTimeout(function(){changeLights(3); }, 3000);
+			e =	setTimeout(function(){changeLights(4); }, 4000);
+			f =	setTimeout(function(){changeLights(5); }, 5000);
+		}
+		
+		//START BUTTON
+		function start_colors()
+		{
+			colors_01();
+			a = setInterval(function(){colors_01();}, 5000);
+		}
+		
+		//STOP BUTTON
+		function clear_colors_01()
+		{
+			clearInterval(a);
+			clearTimeout(b);
+			clearTimeout(c);
+			clearTimeout(d);
+			clearTimeout(e);
+			clearTimeout(f);
+		}
+	</script>
+</body>
+</html>

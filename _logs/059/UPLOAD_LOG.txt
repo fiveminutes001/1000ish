@@ -1,0 +1,13 @@
+
+UPLOAD DATA
+
+---------------
+
+2019-08-30-202309-1567189389.4188-אליס
+
+
+
+IMG NAMES
+
+---------------
+{"image_upload_01":{"name":"IMG_1015.JPG","type":"image\/jpeg","tmp_name":"\/tmp\/phpJHtYOm","error":0,"size":2801622},"file_01":{"name":"","type":"","tmp_name":"","error":4,"size":0},"image_upload_02":{"name":"","type":"","tmp_name":"","error":4,"size":0},"image_upload_03":{"name":"","type":"","tmp_name":"","error":4,"size":0}}

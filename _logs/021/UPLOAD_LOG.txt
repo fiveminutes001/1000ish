@@ -1,0 +1,13 @@
+
+UPLOAD DATA
+
+---------------
+
+2018-11-11-011521-1541891721.2417-אביתר
+
+
+
+IMG NAMES
+
+---------------
+{"image_upload_01":{"name":"CC8BD07F-561E-486C-81EF-30F4938ADEF5.jpeg","type":"image\/jpeg","tmp_name":"\/tmp\/phpSKJt7v","error":0,"size":2579658},"image_upload_02":{"name":"","type":"","tmp_name":"","error":4,"size":0},"image_upload_03":{"name":"","type":"","tmp_name":"","error":4,"size":0}}

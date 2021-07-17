@@ -1,0 +1,13 @@
+
+UPLOAD DATA
+
+---------------
+
+2019-08-30-201446-1567188886.6736-אליס
+
+
+
+IMG NAMES
+
+---------------
+{"file_01":{"name":"IMG_7330.JPG","type":"image\/jpeg","tmp_name":"\/tmp\/phpOJgkKb","error":0,"size":3210439},"image_upload_02":{"name":"","type":"","tmp_name":"","error":4,"size":0},"image_upload_03":{"name":"","type":"","tmp_name":"","error":4,"size":0}}

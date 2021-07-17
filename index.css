@@ -1,0 +1,569 @@
+
+	.subjects
+	{
+		display:none;
+	}
+	
+	.inside_div
+	{
+		display:none;
+	}
+	
+	#div_people
+	{
+		display:none;
+	}
+	
+	#div_subjects_button
+	{
+		background-color:orange;
+	}
+	
+	div.gallery {
+		margin: 5px auto;
+		border: 1px solid #ccc;
+		/*float: left;*/
+		width: 75%;
+		overflow:hidden;
+	}
+	
+	div.gallery:hover {
+		border: 1px solid #777;
+	}
+	
+	div.gallery img {
+		width: 100%;
+		height: auto;
+	}
+	
+	div.desc {
+		padding: 15px;
+		text-align: center;
+	}
+	
+	.container
+	{
+		width:100%;
+		text-align:center;
+		float:left;
+	}
+	
+	.header
+	{
+		width:100%;
+		text-align:center;
+	}
+	
+	*
+	{
+		font-family: 'Bellefair', serif;
+	}
+	
+	/* LIST *//* https://designshack.net/articles/css/5-simple-and-practical-css-list-styles-you-can-copy-and-paste/ */
+	
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	body 
+	{
+		/*background: #333;*/
+		padding:12px;
+	}
+		
+	div {
+	/*width: 900px;*/
+	width: 100%;
+	margin: 0 auto;
+	overflow: auto;
+	}
+	
+	ul {
+	list-style-type: none;
+	}
+	
+	li img {
+	float: left;
+	margin: 10px;
+	border: 5px solid #fff;
+	
+	-webkit-transition: box-shadow 0.5s ease;
+	-moz-transition: box-shadow 0.5s ease;
+	-o-transition: box-shadow 0.5s ease;
+	-ms-transition: box-shadow 0.5s ease;
+	transition: box-shadow 0.5s ease;
+	}
+	
+	li img:hover {
+	-webkit-box-shadow: 0px 0px 7px rgba(255,255,255,0.9);
+	box-shadow: 0px 0px 7px rgba(255,255,255,0.9);
+	}
+	
+	/* TABLE */
+	table
+		{
+			border-collapse:collapse;
+		}
+	
+	table td, table th
+		{
+			border:1px solid black;
+			padding:2px;
+		}
+		
+	/* IMG */
+	img 
+		{
+			border-radius:20px 20px 20px 20px;
+		}
+		
+	/* W3SCHOOLS PIC GALLERY */
+	
+	* {box-sizing:border-box}
+
+	/* Slideshow container */
+	.slideshow-container 
+	{
+		max-width: 1000px;
+		position: relative;
+		margin: auto;
+	}
+	
+		
+	/* Hide the images by default */
+	.mySlides,
+	.mySlides_00,
+	.mySlides_01,
+	.mySlides_02,
+	.mySlides_03,
+	.mySlides_04,
+	.mySlides_05,
+	.mySlides_06,
+	.mySlides_07,
+	.mySlides_08,
+	.mySlides_09,
+	.mySlides_10,
+	.mySlides_11,
+	.mySlides_12,
+	.mySlides_13,
+	.mySlides_14,
+	.mySlides_15,
+	.dots_div,
+	.div_header_pic
+	{
+		display: none;
+	}
+	
+	#div_subjects_button,
+	#div_subjects_button_02,
+	#div_people_button
+	{
+		cursor:pointer;
+	}
+	
+	/* Next and previous buttons */
+	.prev, .next 
+	{
+		cursor: pointer;
+		position: absolute;
+		top: 50%;
+		width: auto;
+		margin-top: -22px;
+		padding: 16px;
+		color: black;
+		font-weight: bold;
+		font-size: 18px;
+		transition: 0.6s ease;
+		border-radius: 0 3px 3px 0;
+		background-color: white;
+		border:1px black solid;
+	}
+	
+	/* Position the "next button" to the right */
+	.next 
+	{
+		left: 0;
+		border-radius: 3px 0 0 3px;
+	}
+	
+	/* On hover, add a black background color with a little bit see-through */
+	.prev:hover, .next:hover 
+	{
+		background-color: orange;
+	}
+	
+	/*  */
+	.text 
+	{
+		color: #f2f2f2;
+		font-size: 15px;
+		padding: 8px 12px;
+		/*position: absolute;*/
+		bottom: 8px;
+		width: 100%;
+		text-align: center;
+	}
+	
+	/* Number text (1/3 etc) */
+	.numbertext 
+	{
+		/*color: #f2f2f2;*/
+		color:#f1f1f1;
+		font-size: 12px;
+		padding: 8px 12px;
+		position: absolute;
+		top: 0;
+	}
+	
+	/* The dots/bullets/indicators */
+	.dot,
+	.dot_00,
+	.dot_01,
+	.dot_02,
+	.dot_03,
+	.dot_04,
+	.dot_05,
+	.dot_06,
+	.dot_07,
+	.dot_08,
+	.dot_09,
+	.dot_10,
+	.dot_11,
+	.dot_12,
+	.dot_13,
+	.dot_14,
+	.dot_15
+	{
+		cursor: pointer;
+		height: 15px;
+		width: 15px;
+		margin: 0 2px;
+		background-color: #bbb;
+		border-radius: 50%;
+		display: inline-block;
+		transition: background-color 0.6s ease;
+	}
+		
+	.active, .dot:hover ,.dot_01:hover,.dot_02:hover
+	{
+		background-color: #e47177;
+	}
+	
+	/* Fading animation */
+	.fade 
+	{
+		-webkit-animation-name: fade;
+		-webkit-animation-duration: 1.5s;
+		animation-name: fade;
+		animation-duration: 1.5s;
+	}
+	
+	@-webkit-keyframes fade 
+	{
+		from {opacity: 1} /* was opacity:0.4 */ 
+		to {opacity: 1}
+	}
+	
+	@keyframes fade 
+	{
+		from {opacity: 1} /* was opacity:0.4 */ 
+		to {opacity: 1}
+	}
+	
+	.prev
+	{
+		right:0;
+	}
+	
+	
+	/* IMG ROTATION - ADD ROTATE_01 CLASS TO IMG *//* https://codepen.io/CodeXYZ/pen/xbdxyO */
+	
+	.rotate_01
+	{
+		-webkit-transition: -webkit-transform .8s ease-in-out;
+		-ms-transition: -ms-transform .8s ease-in-out;
+		transition: transform .8s ease-in-out; 
+	}
+	
+	/*	.rotate_01:hover
+		{
+			transform:rotate(90deg);
+			-ms-transform:rotate(90deg);
+			-webkit-transform:rotate(90deg);
+		}
+	*/
+	
+	.rotate_01:hover
+	{
+		-webkit-transform: translate(-13%,134%) rotate(90deg); /* Safari */
+		-moz-transform: translate(-13%,134%) rotate(90deg); /* Firefox 3.6 Firefox 4 */
+		-ms-transform: translate(-13%,134%) rotate(90deg); /* IE9 */
+		-o-transform: translate(-13%,134%) rotate(90deg); /* Opera */
+		transform: translate(-13%,134%) rotate(90deg); /* W3C */  
+		-webkit-transform-origin: top right;
+		-moz-transform-origin: top right;
+		-ms-transform-origin: top right;
+		-o-transform-origin: top right;
+		transform-origin: top right;
+	}
+	
+	:focus
+	{
+		outline-width:0px;
+	}
+	
+	.ui-loader
+	{
+		display:none;
+	}
+	
+	.initial_width
+	{
+		width:initial;
+	}
+	
+	.triangle
+	{
+		width: 0;
+		height: 0;
+		border-left: 0px solid transparent;
+		border-right: 120px solid transparent;
+		border-bottom: 60px solid #555;
+	}
+	
+	.top_button
+	{
+		background-color:#a16dc9;
+		margin:2px 2px 1px 0px;
+		padding:6px 6px;
+		border:1px #dcb677 solid;
+		float:right;
+		color:#f9f1f1;
+	}
+	
+	.button_
+	{
+		width:20%;
+		//max-width:12.5%;
+		//overflow:hidden;
+		float:right;
+	}
+	
+	.button_02_
+	{
+		width:50%;
+		//max-width:12.5%;
+		//overflow:hidden;
+		float:right;
+	}
+	
+	.to_complete
+	{
+		width:96%;
+		overflow:hidden;
+		margin:2px;
+		padding:0px 2px;
+		border:1px black solid;
+		float:right;
+		background-color:green;
+		color:white;
+	}
+	
+	.to_complete_02
+	{
+		width:98%;
+		//overflow:hidden;
+		margin:2px;
+		padding:0px 2px;
+		border:0.5px black solid;
+		float:right;
+		background-color:green;
+		color:white;
+		overflow:hidden;
+		cursor:pointer;
+	}
+	
+	.math_804
+	{
+		width:98%;
+		//overflow:hidden;
+		margin:2px;
+		padding:0px 2px;
+		border:0.5px black solid;
+		float:right;
+		background-color:darkmagenta;
+		color:white;
+		overflow:hidden;
+		cursor:pointer;
+	}
+	
+	.to_complete_03
+	{
+		width:98%;
+		//overflow:hidden;
+		margin:2px;
+		padding:0px 2px;
+		border:0.5px black solid;
+		float:right;
+		background-color:#806300;
+		color:white;
+		overflow:hidden;
+		cursor:pointer;
+	}
+	
+	.to_complete_04
+	{
+		width:98%;
+		//overflow:hidden;
+		margin:2px;
+		padding:0px 2px;
+		border:0.5px black solid;
+		float:right;
+		clear:both;
+		background-color:#806300;
+		color:white;
+		overflow:hidden;
+		cursor:pointer;
+	}
+	
+	.to_complete:hover
+	{
+		cursor:pointer;
+	}
+	
+	.over_five_hundred
+	{
+		display:none;
+	}
+	
+	.under_five_hundred
+	{
+		display:block;
+		padding:6px 0px;
+		color:white;
+		border:1px black solid;
+		background-color:#a16dc9;
+		margin-top:4px;
+	}
+	
+	.twenty_percent
+	{
+		width:20%;
+		overflow:hidden;
+		padding:0px 2px;
+	}
+	
+	.twenty_percent>a
+	{
+		text-decoration:none;
+	}
+	
+	.formula_buttons
+	{
+		color:white;
+		border:1px black solid;
+		background-color:#3477b9;
+		padding:6px 4px;
+	}
+	
+	.formula_buttons_div_02
+	{
+		padding:0px 2px;
+		width:initial;
+		overflow:none;
+		float:right;
+		margin-top:2px;
+		white-space:nowrap;
+	}
+	
+	.formula_buttons_div
+	{
+		padding:0px 2px;
+		width:20%;
+		overflow:none;
+		float:right;
+		margin-top:2px;
+	}
+	
+	.formula_buttons_div>a,
+	.formula_buttons_div_02>a
+	{
+		text-decoration:none;
+	}
+		
+	#div_people_button,
+	#div_subjects_button,
+	#div_subjects_button_02,
+	.math_800_001:hover,
+	.math_800_002:hover,
+	.math_800_003:hover,
+	.math_800_004:hover,
+	.math_800_005:hover,
+	.math_804_001:hover,
+	.math_804_002:hover,
+	.math_804_003:hover,
+	.math_804_004:hover,
+	.math_806_001:hover,
+	.math_806_002:hover,
+	.math_806_003:hover,
+	.math_806_004:hover,
+	.physics_900_001,
+	.physics_900_002,
+	.physics_900_003,
+	.physics_900_004,
+	.physics_900_005,
+	{
+		cursor:pointer;
+	}
+	
+	/*RESPONSIVE IFRAME*/
+	.videoWrapper
+	{
+		position: relative;
+		padding-bottom: 56.25%; /* 16:9 */
+		padding-top: 25px;
+		height: 0;
+		-webkit-overflow-scrolling: touch;
+		overflow-y: scroll;
+	}
+	.videoWrapper iframe 
+	{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	
+	@media only screen and (max-width: 500px)
+	{
+		
+		.button_
+		{
+			width:25%;
+			overflow:hidden;
+		}
+			
+		.twenty_percent
+		{
+			width:33.33%;
+			overflow:hidden;
+			padding:0px 2px;
+		}
+		
+		.over_five_hundred
+		{
+			display:none;
+		}
+		
+		.under_five_hundred
+		{
+			display:block;
+			padding:6px 0px;
+			color:white;
+			border:1px black solid;
+			background-color:#a16dc9;
+		}
+	}	
+					

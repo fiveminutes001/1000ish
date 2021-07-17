@@ -1,0 +1,13 @@
+
+UPLOAD DATA
+
+---------------
+
+2018-11-10-144015-1541853615.9944-אביתר
+
+
+
+IMG NAMES
+
+---------------
+{"image_upload_01":{"name":"1.txt","type":"text\/plain","tmp_name":"\/tmp\/php1wycxj","error":0,"size":0},"image_upload_02":{"name":"IMG_6583.MOV","type":"","tmp_name":"","error":1,"size":0},"image_upload_03":{"name":"IMG_6600.JPG","type":"image\/jpeg","tmp_name":"\/tmp\/phpjLRzBd","error":0,"size":1040619}}

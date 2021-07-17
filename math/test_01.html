@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Add Bevelled Fraction Macro</title>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
+  var MML = MathJax.ElementJax.mml,
+      TEX = MathJax.InputJax.TeX;
+
+  TEX.Definitions.macros.bfrac = "myBevelFraction";
+
+  TEX.Parse.Augment({
+    myBevelFraction: function (name) {
+      var num = this.ParseArg(name),
+          den = this.ParseArg(name);
+      this.Push(MML.mfrac(num,den).With({bevelled: true}));
+    }
+  });
+});
+</script>
+<script type="text/javascript"
+  src="../MathJax/unpacked/MathJax.js?config=TeX-AMS_HTML">
+</script>
+
+</head>
+<body>
+
+<p>A bevelled fraction: \(\bfrac{1}{2}\)</p>
+
+</body>
+</html>
